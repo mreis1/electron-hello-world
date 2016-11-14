@@ -1,0 +1,22 @@
+{
+  "name": "electron-hello-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "electron": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^1.4.6",
+    "electron-prebuilt": "^1.4.6"
+  },
+  "build":{
+    "appId": "com.mr.demoelectron",
+    "mac": {
+      "category": "your.app.category.type",
+    }
+  }
+}
